@@ -1,1 +1,1 @@
-Project: Google Homepage for THe Oding Project
+Project: Google Homepage for The Oding Project
