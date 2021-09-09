@@ -8,6 +8,7 @@ ul {
 
 li {
     display: inline;
+    margin: 10px;
 }
 
 #acceder-button {
@@ -43,17 +44,23 @@ li {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom:0;
+    background-color: aquamarine;
+    width: 100%;
+    font-size: 0.8em;
 }
 
 #footer-nav1 {
     float:left;
     background-color: wheat;
-    margin: 0px;
-    padding: 0px;
+    padding: 10px 15px 15px 60px;
+    margin: 0;
 }
 
 #footer-nav2 {
-    float:right;
+    float: right;
+    padding: 10px 60px 15px 15px;
+    margin: 0px;
+    background-color: wheat;
 }
