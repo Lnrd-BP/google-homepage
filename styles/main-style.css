@@ -1,9 +1,59 @@
 ul {
     list-style-type: none;
-    float: right;  
-    
+}
+
+#main-nav {
+    float: right;
 }
 
 li {
     display: inline;
+}
+
+#acceder-button {
+    background-color: rgb(66,133,244);
+    border-radius: 5px;
+    border-color: white;
+    padding: 7px 20px;
+    color: white;
+}
+
+#search-div {
+    margin: 100px auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+#foogle-logo {
+    width: 250px;
+    height: auto;
+    padding: 20px;
+}
+
+#searchbar {
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-color: white;
+    width: 600px;
+    padding: 12px;
+    border-radius: 24px;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+}
+
+#footer-nav1 {
+    float:left;
+    background-color: wheat;
+    margin: 0px;
+    padding: 0px;
+}
+
+#footer-nav2 {
+    float:right;
 }
