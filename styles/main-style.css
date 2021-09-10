@@ -43,6 +43,7 @@ img {
 #apps-button {
     padding: 8px;
     margin: 0px 0px;
+    opacity: 0.6;
 }
 
 #apps-button:hover {
@@ -67,6 +68,7 @@ img {
 /*Searchbar styles*/
 
 #search-div {
+    height: 400px;
     margin: 100px auto;
     display: grid;
     justify-items: center;
@@ -77,18 +79,73 @@ img {
 #foogle-logo {
     width: 250px;
     height: auto;
-    padding: 20px;
+    padding: 0px;
+    margin: 50px 0px -40px 0px;
+}
+
+#searchform {
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 #searchbar {
     background-image: url(../images/search.svg);
     background-repeat: no-repeat;
-    background-position: 6px;
+    background-position: 15px;
     background-color: white;
-    width: 600px;
-    padding: 12px;
+    border-color: rgb(202, 200, 200);
+    border-width: 1px;
+    width: 480px;
+    padding: 12px 50px;
     border-radius: 24px;
+    margin-bottom: 20px; 
 }
+
+#searchbar:hover {
+    box-shadow: 2px 2px 5px rgb(202, 200, 200);
+}
+
+#search-button-div {
+    position: absolute;
+    margin-top: 150px;
+    width: 300px;
+    height: 100px;
+    background-color: lemonchiffon;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+.search-button {
+    border: none;
+    border-radius: 3px;
+    margin: 10px 5px;
+    padding: 10px 15px;
+    font-size: 0.85em;
+}
+
+.search-button:hover {
+    position:initial;
+    border: solid;
+    border-color: rgb(202, 200, 200);
+    border-width: 1px;
+    box-shadow: 0px 1px 1px rgb(202, 200, 200);
+}
+
+#alt-lang-div {
+    margin: 20px;
+    padding-bottom: 10px;
+    font-size: 0.8em;
+    background-color: lawngreen;
+}
+
+#alt-lang {
+    color: blue;
+}
+
+/*Footer styles */
 
 footer {
     position: absolute;
