@@ -61,6 +61,7 @@ img {
     margin: 0px;
     color: white;
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 #acceder-button:hover {
@@ -95,8 +96,6 @@ img {
     align-items: center;
 }
 
-
-
 #searchbar {
     border: solid;
     background-image: url(../images/search.svg);
@@ -105,8 +104,8 @@ img {
     background-color: transparent;
     border-color: rgb(214, 214, 214);
     border-width: 1px;
-    width: 100%;
-    padding: 12px 0px;
+    width: 80%;
+    padding: 12px 50px;
     border-radius: 24px;
     margin: 0px; 
 }
@@ -142,6 +141,7 @@ img {
     margin: 20px 5px 0px 5px;
     padding: 10px 15px;
     font-size: 0.85em;
+    cursor: pointer;
 }
 
 .search-button:hover {
@@ -257,20 +257,16 @@ img {
     }
 }
 
-
 @media(min-width: 850px) {
-
     #footer-links-div {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding: 0px 30px;
-    }
-        
+    }  
 }
 
 @media(min-width: 1200px) {
-
     #footer-links-div {
         justify-content: space-between;
     } 
